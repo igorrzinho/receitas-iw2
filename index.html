@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>receitas</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="menu-esquerdo">
+            <h1 class="titulo">receitas do igor</h1>
+        </div>
+        <ul class="ulrReceitas">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+    </div>
+    <div class="menu-direito">
+        <div class="registro-receitas">
+            <div class="view">
+                <div class="adicionar-receita todos-titulos">adicionar receita</div>
+                <ion-icon onclick="verReceitas()" class="olhos" name="eye-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="titulo-registro todos-sub-titulos">nome da receita</div>
+        <input type="text" class="campoInputLine" id="nomeReceita">
+        <div class="titulo-registro todos-sub-titulos">Ingredientes</div>
+        <input type="text" class="campoInputLine" id="nomeIngredientes">
+        <textarea name="" id="nomePreparo" cols="30" rows="10" class="campoInput"></textarea>
+        <button onclick="adicionarNovaReceita()" class="btn-adicionar">adicionar Receita</button>
+
+</body>
+
+</html>
